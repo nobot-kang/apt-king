@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172e31">
+  <meta name="description" content="내가 왕이 될 상인가? 게임 방법, 추정가격과 단지 자산총액의 준비 과정, 데이터 한계와 기록 저장 안내.">
+  <title>게임·데이터 안내 | 내가 왕이 될 상인가?</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./about.css">
+</head>
+<body>
+  <a class="skip" href="#main">안내로 건너뛰기</a>
+  <header class="site-header"><a class="brand" href="./"><span class="brand-mascot" aria-hidden="true"></span> 내가 왕이 될 상인가?</a><a class="guide-nav" href="./">게임으로 돌아가기</a></header>
+  <main id="main" class="about-page" tabindex="-1">
+    <section class="about-hero">
+      <div><p class="eyebrow">게임·데이터 안내</p><h1>왕관은 둘,<br><span>판단 기준도 둘.</span></h1><p class="lead">단지 전체의 가치와 한 평의 가격은 다릅니다.<br>집값 감각을 비교하고 검산하는 작은 학습 게임이에요.</p></div>
+      <img src="./assets/mascot-neutral.png" width="150" height="150" alt="게임을 안내하는 펭귄 마스코트">
+    </section>
+    <section class="about-section" aria-labelledby="how-title"><p class="eyebrow">01 · 게임 방법</p><h2 id="how-title">세 단지, 두 번의 선택, 다섯 판.</h2>
+      <ol class="how-steps"><li><strong>두 왕관 선택</strong><span>단지 자산총액 1등과 카드 평형의 전용 평당가 1등을 각각 고르세요.</span></li><li><strong>확정 후 검산</strong><span>답안을 잠근 뒤 가격·면적·계산 근거를 확인합니다. 공동 1위는 하나만 골라도 정답이에요.</span></li><li><strong>기록과 복습</strong><span>각 왕관 10점, 5판 100점. 시간 제한은 없고 기록 시간은 점수에 영향을 주지 않습니다. 연습은 건너뛸 수 있어요.</span></li></ol>
+      <div class="about-modes"><div><h3>쉬움</h3><p>1채 가격 힌트와 숫자 자동 입력을 제공합니다. 계산기는 판당 2회.</p></div><div><h3>어려움</h3><p>가격 힌트 없이 입지·면적·세대수로 추정합니다. 직접 입력 계산은 무제한.</p></div></div>
+    </section>
+    <section class="about-section" aria-labelledby="data-title"><p class="eyebrow">02 · 데이터 준비</p><h2 id="data-title">실거래를 바탕으로 만든 추정값입니다.</h2>
+      <p>국토교통부 아파트 매매 실거래 자료와 건축물대장·공동주택 단지 정보 등을 정리한 자체 분석 자료에서 게임에 필요한 사례만 골랐습니다. 원본 거래 목록이나 전체 분석 대시보드는 포함하지 않습니다.</p>
+      <div class="data-facts"><div><span>비교 지역</span><strong>서울·경기 61개 구역</strong></div><div><span>가격 기준일</span><strong id="data-date">문제 팩 확인 중</strong></div><div><span>비교 전용면적</span><strong>17·18·25·26평</strong></div></div>
+      <p>같은 시도·매매 시장·기준일 안에서 세 단지를 묶습니다. 자산총액 상위 단지와 지역 대표 단지로 선정된 이력이 있는 사례를 우선하고, 자료가 부족하거나 오래된 가격과 계산상 순위가 모호한 조합은 제외했습니다.</p>
+      <details><summary>계산은 어떻게 하나요?</summary><dl class="method-list"><dt>총액 왕</dt><dd>단지의 모든 전용면적별 <strong>1채 추정가격 × 해당 세대수</strong>를 합산합니다. 카드의 가격 × 전체 세대수는 약식 힌트여서 정답 총액과 다를 수 있어요.</dd><dt>평당가 왕</dt><dd>카드의 <strong>1채 추정가격 ÷ 전용면적 평수</strong>로 비교합니다. 1평은 3.3058㎡, 1억은 10,000만원입니다.</dd><dt>표시와 정답</dt><dd>1채 가격 표시는 천만원 단위로 반올림하지만 채점에는 원래 정밀도를 사용합니다. 표준 면적의 모형 추정값이며 특정 동·층·호수의 가격은 아닙니다.</dd></dl></details>
+      <p class="small source-links">기초 자료 안내: <a href="https://rt.molit.go.kr/" target="_blank" rel="noopener noreferrer">국토교통부 실거래가 공개시스템</a> · <a href="https://www.k-apt.go.kr/" target="_blank" rel="noopener noreferrer">공동주택관리정보시스템</a></p>
+    </section>
+    <section class="about-section caution" aria-labelledby="limits-title"><p class="eyebrow">03 · 이용 전에</p><h2 id="limits-title">게임의 정답이 투자 정답은 아닙니다.</h2><ul><li>학습용 추정치입니다. 현재 매물 호가, 공식 감정평가, 매수·매도 추천이나 미래 수익 보장이 아닙니다.</li><li>가격은 표시된 기준일의 값이며 실시간으로 갱신되지 않습니다. 세대수·평형 구성은 준비 당시 확인한 재고 자료로, 가격 기준일 당시의 구성을 재현한 것은 아닙니다.</li><li>‘지역 대표 선정 이력’은 자체 분석에서 선택된 기록입니다. 공식 순위나 해당 지역의 확정적인 우열을 뜻하지 않습니다.</li><li>누락·오류·모형 가정에 따라 추정값은 달라질 수 있습니다. 실제 거래 판단에는 최신 공식 자료와 해당 주택의 개별 조건을 별도로 확인해 주세요.</li></ul></section>
+    <section class="about-section" aria-labelledby="records-title"><p class="eyebrow">04 · 기록과 공유</p><h2 id="records-title">내 기록은 내 브라우저에.</h2><p>점수와 초 단위 시간은 이 브라우저에 최대 100개 저장됩니다. 쉬움·어려움, 본 게임·복습을 구분하며 연습 시간은 기록에 포함하지 않아요. 브라우저 데이터를 지우거나 다른 기기·주소에서 접속하면 이전 기록이 보이지 않을 수 있습니다.</p><p>게임은 기록과 계산기 입력을 서버로 전송하지 않습니다. 선택한 기록은 기기에서 PNG로 만들거나 링크와 함께 복사합니다. 서버가 검증한 경쟁 순위가 아닌 개인 기록이며, 웹 호스팅 서비스의 접속 로그 처리는 별개입니다.</p></section>
+    <a class="primary about-play" href="./">이제 왕관을 골라볼까요? →</a>
+  </main>
+  <footer class="site-footer"><span>내가 왕이 될 상인가? · 학습용 게임</span><a href="./">게임으로 돌아가기</a></footer>
+  <script type="module" src="./about.mjs"></script>
+</body>
+</html>

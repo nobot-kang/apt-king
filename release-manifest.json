@@ -1,0 +1,66 @@
+{
+  "format": "static-game-release-v1",
+  "game_version": "apt-king-3",
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "README.md": {
+      "bytes": 2814,
+      "sha256": "bb4d47d524861287e2999ded68676bf748526fe8cb1c0f7da2e1d1cbe815ec8a"
+    },
+    "about.css": {
+      "bytes": 2902,
+      "sha256": "91c6a4a7a2b9a5f29e7b93aa56683521a9fa967f7c58a974a8065d6c5227b81c"
+    },
+    "about.html": {
+      "bytes": 6603,
+      "sha256": "de110f7c66069173d87639605165ab449c136c3a9f0ad9ca44e659171ebe5cf7"
+    },
+    "about.mjs": {
+      "bytes": 318,
+      "sha256": "bbbdb83a9ac3b424729f154f126f62b107dd50748cd2ac274914a19c03291034"
+    },
+    "app.mjs": {
+      "bytes": 32678,
+      "sha256": "fd4d1cddd141286c266d3aa79a21f34a63a98176e7317f834d2cbbfc9e38c2bb"
+    },
+    "assets/mascot-neutral.png": {
+      "bytes": 749770,
+      "sha256": "d1ebe866d9ebcc0f49f504805c997f2baa7cd11c2b8e8db5c329fab7517c947e"
+    },
+    "assets/mascot-sad.png": {
+      "bytes": 748411,
+      "sha256": "9b9f246aff0d4c2a684b0400faa1ccf561f0d25cd7c72f03868545bfe34005ac"
+    },
+    "assets/mascot-smile.png": {
+      "bytes": 804824,
+      "sha256": "b37a31c8d724c1a7306e4255d91119a0cf9a385411ce56282e8f483a5e993cbe"
+    },
+    "assets/turnaround.png": {
+      "bytes": 1606672,
+      "sha256": "877413a1d51b2865ff66498a57545c27c9f628345f14aeb761bf56a1e0e2d924"
+    },
+    "engine.mjs": {
+      "bytes": 12166,
+      "sha256": "548ad320244b8f19e0f389e96960736d54598b5dcc9b0ff01456604c50ee4712"
+    },
+    "index.html": {
+      "bytes": 1089,
+      "sha256": "ee415bb1b15a3cd5b1aacbb9c5bc51cd5d31fbb01415efa460ff9f954ffd5981"
+    },
+    "pack.json": {
+      "bytes": 243552,
+      "sha256": "d08a4b9dc55cf794309cd63592145e7cacdebff408240dec9a506b0442fa618c"
+    },
+    "records.mjs": {
+      "bytes": 7612,
+      "sha256": "11e2b7f86462e92a46e5465d710a7ad44454957127f79cfaea6d3d6a2c2a002d"
+    },
+    "style.css": {
+      "bytes": 23140,
+      "sha256": "1051c2f05f75008b6dd7e8f4948e1b630ba96edb9731c8e800d560e41666d464"
+    }
+  }
+}
