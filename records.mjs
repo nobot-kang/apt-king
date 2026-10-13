@@ -4,7 +4,8 @@ export const STORAGE_KEY = 'apt-king.records.v1';
 export const MAX_RECORDS = 100;
 export const modeLabel = mode => mode === 'hard' ? '어려움' : '쉬움';
 export const mascotMood = score => score >= 100 ? 'smile' : score >= 50 ? 'neutral' : 'sad';
-export const mascotPath = score => `./assets/mascot-${mascotMood(score)}.png`;
+export const mascotPath = score => `./assets/mascot-${mascotMood(score)}.webp`;
+export const CHARACTER_RIGHTS='펭귄 캐릭터 ‘또박’ © 2026 Nobot Kang. All rights reserved.';
 export const mascotAlt = score => score >= 100 ? '활짝 웃는 펭귄 마스코트' : score >= 50 ? '평범한 표정의 펭귄 마스코트' : '시무룩한 펭귄 마스코트';
 export function formatTime(seconds) {
   const whole = Math.floor(Math.max(0, seconds));
@@ -111,5 +112,6 @@ export async function recordImage(record) {
   text(GAME_URL,54,588,21,accent);
   const date=new Date(record.createdAt).toLocaleDateString('ko-KR',{timeZone:'Asia/Seoul'});
   text(date,54,618,15,muted,'400');
+  ctx.textAlign='right';text(CHARACTER_RIGHTS,948,618,12,muted,'400');ctx.textAlign='left';
   return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(Error('이미지를 만들지 못했어요.')),'image/png'));
 }

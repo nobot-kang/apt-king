@@ -7,60 +7,68 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "README.md": {
-      "bytes": 2814,
-      "sha256": "bb4d47d524861287e2999ded68676bf748526fe8cb1c0f7da2e1d1cbe815ec8a"
+      "bytes": 3543,
+      "sha256": "d8718d5dbaf7787dc1673de44b838d8058f43e139ec51478e21df205d3dea9e1"
     },
     "about.css": {
       "bytes": 2902,
       "sha256": "91c6a4a7a2b9a5f29e7b93aa56683521a9fa967f7c58a974a8065d6c5227b81c"
     },
     "about.html": {
-      "bytes": 6603,
-      "sha256": "de110f7c66069173d87639605165ab449c136c3a9f0ad9ca44e659171ebe5cf7"
+      "bytes": 6775,
+      "sha256": "32ce15252064eeaa0799eba66638686fb394befeaa19bdad75951ee64f532aef"
     },
     "about.mjs": {
       "bytes": 318,
       "sha256": "bbbdb83a9ac3b424729f154f126f62b107dd50748cd2ac274914a19c03291034"
     },
     "app.mjs": {
-      "bytes": 32678,
-      "sha256": "fd4d1cddd141286c266d3aa79a21f34a63a98176e7317f834d2cbbfc9e38c2bb"
+      "bytes": 33834,
+      "sha256": "fa41fdccfc891573230c5954f8f670848994b31284cf5e76b12cc9649cd5fbac"
     },
-    "assets/mascot-neutral.png": {
-      "bytes": 749770,
-      "sha256": "d1ebe866d9ebcc0f49f504805c997f2baa7cd11c2b8e8db5c329fab7517c947e"
+    "assets/mascot-neutral.webp": {
+      "bytes": 206222,
+      "sha256": "20816060b409ceb04fcdd69472fb1a57aaf8aaf0b8da7dd5626602ab4085860b"
     },
-    "assets/mascot-sad.png": {
-      "bytes": 748411,
-      "sha256": "9b9f246aff0d4c2a684b0400faa1ccf561f0d25cd7c72f03868545bfe34005ac"
+    "assets/mascot-sad.webp": {
+      "bytes": 200992,
+      "sha256": "01c95f6da5b3d56eb5b34f15ebb6d5844a0f9963e70b1b005e1f9c1697538774"
     },
-    "assets/mascot-smile.png": {
-      "bytes": 804824,
-      "sha256": "b37a31c8d724c1a7306e4255d91119a0cf9a385411ce56282e8f483a5e993cbe"
+    "assets/mascot-smile.webp": {
+      "bytes": 213740,
+      "sha256": "baebdcfb9476599de13e79fc30316d1e8dc3fd1efc5080d933b1ec63a8745d6b"
     },
-    "assets/turnaround.png": {
-      "bytes": 1606672,
-      "sha256": "877413a1d51b2865ff66498a57545c27c9f628345f14aeb761bf56a1e0e2d924"
+    "assets/rules-video.jpg": {
+      "bytes": 42187,
+      "sha256": "a9d10288139c3dc9d67f120fb1e4beed31b1ff3a9a4ae925b89461eedf00d614"
+    },
+    "assets/rules-video.mp4": {
+      "bytes": 4378735,
+      "sha256": "e9999e04315fae40c4c36e36d86d5cc0a76c413df834a323de0881d96b4cc3a9"
+    },
+    "assets/turnaround.webp": {
+      "bytes": 138976,
+      "sha256": "9edd173221488c217a706a8935be11cc4bf1c2ec35dfda49c96a1e7ac8528069"
     },
     "engine.mjs": {
       "bytes": 12166,
       "sha256": "548ad320244b8f19e0f389e96960736d54598b5dcc9b0ff01456604c50ee4712"
     },
     "index.html": {
-      "bytes": 1089,
-      "sha256": "ee415bb1b15a3cd5b1aacbb9c5bc51cd5d31fbb01415efa460ff9f954ffd5981"
+      "bytes": 2171,
+      "sha256": "7ee29c359e0772cb105c23d1a7dcfd2a2ee1ccadf27fd35a8312cf22c3e8009a"
     },
     "pack.json": {
       "bytes": 243552,
       "sha256": "d08a4b9dc55cf794309cd63592145e7cacdebff408240dec9a506b0442fa618c"
     },
     "records.mjs": {
-      "bytes": 7612,
-      "sha256": "11e2b7f86462e92a46e5465d710a7ad44454957127f79cfaea6d3d6a2c2a002d"
+      "bytes": 7809,
+      "sha256": "7352b050ed0bc45619b7bf7c6c146d517db1da181541a2bce482c649a39459a8"
     },
     "style.css": {
-      "bytes": 23140,
-      "sha256": "1051c2f05f75008b6dd7e8f4948e1b630ba96edb9731c8e800d560e41666d464"
+      "bytes": 28244,
+      "sha256": "6b8047cf444d6e49af59e658e3c8e41457e6e2a19422f61ddc246841597fccb4"
     }
   }
 }
